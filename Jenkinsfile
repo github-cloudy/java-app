@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Cloning') {
             steps {
-                git branch: 'main', credentialsId: 'java_repo_creds' url: 'https://github.com/github-cloudy/java-app.git' // Updated URL here
+                git branch: 'main',  url: 'https://github.com/github-cloudy/java-app.git' // Updated URL here
             }
         }
         
